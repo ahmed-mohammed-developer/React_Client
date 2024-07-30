@@ -1,0 +1,42 @@
+.home {
+    height: calc(100vh - 70px);
+    color: #fff;
+    background-color: #cd5c5cda;
+    position: relative;
+}
+.home:before{
+    content: "";
+    position: absolute;
+    background: url("../../Image/1.png") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.home-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+.view-deatlis-home-buttom{
+    background-color: #f7d010;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.view-deatlis-home-buttom:hover{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
