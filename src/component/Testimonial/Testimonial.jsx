@@ -86,7 +86,7 @@ const Testimonial = () => {
     }
 
   return (
-    <div className='container testimonial-section'>
+    <div className='container testimonial-section' id='testimonial'>
       <div className="section-title">
             <h5>Testimonial</h5>
             <div className="line"></div>
@@ -94,8 +94,8 @@ const Testimonial = () => {
 
         <div className="row">
             {data.slice(0, showMorePost).map((item, index) => (
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                    <div className="content-card">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
+                    <div className= {index === 0 ? "marked-content-card" : "content-card"} >
                         <img src={item.img} alt={item.name} />
                         <p>
                             {item.content}

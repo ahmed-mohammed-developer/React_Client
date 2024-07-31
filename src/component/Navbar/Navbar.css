@@ -7,6 +7,12 @@
     text-align: center;
     top: 0;
     justify-content: right;
+    position: sticky;
+    z-index: 1;
+    padding-top: 7px;
+}
+.nave-scroll-color {
+    background-color: #38004c;
 }
 .navbar-main ul {
     display: flex;
@@ -18,6 +24,8 @@
     color: white;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    vertical-align: center;
 }
 .navbar-main ul li:hover {
     color: yellow;
