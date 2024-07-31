@@ -2,7 +2,7 @@
     height: 900px;
 }
 .about-image img {
-    border-radius: 190px;
+    border-radius: 30px;
     margin-top: 160px;
     object-fit: cover;
     max-width: 100%;
@@ -13,7 +13,7 @@
     text-align: left;
     padding: 20px; 
 }
-.about-title h5 {
+.section-title h5 {
     text-align: center;
 }
 .line {

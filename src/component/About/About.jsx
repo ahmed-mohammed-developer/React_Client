@@ -11,14 +11,14 @@ const About = () => {
   return (
     <div className='container about-section'>
         <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="about-image">
-                    <img src={Imag} height="400px" width='400px' alt='' />
+                    <img src={Imag} height="450px" width='400px' alt='' />
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="about-detalis">
-                    <div className="about-title">
+                    <div className="section-title">
                         <h5>About</h5>
                         <span className='line'></span>
                     </div>
