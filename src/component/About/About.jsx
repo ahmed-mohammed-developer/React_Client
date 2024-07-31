@@ -13,7 +13,7 @@ const About = () => {
         <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="about-image">
-                    <img src={Imag} height="450px" width='400px' alt='' />
+                    <img src={Imag} height="470px" width='400px' alt='' />
                 </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
