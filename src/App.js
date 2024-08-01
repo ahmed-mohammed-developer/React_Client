@@ -3,8 +3,10 @@ import Navbar from './component/Navbar/Navbar'
 import Home from './component/Home/Home'
 import About from './component/About/About'
 import Service from './component/Service/Service.jsx'
+import Team from './component/Team/Team.jsx'
 import Testimonial from './component/Testimonial/Testimonial.jsx'
 import Subscription from './component/Subscription/Subscription.jsx'
+import Footer from './component/Footer/Footer.jsx'
 import './App.css'
 import ScrollToTop from "react-scroll-to-top";
 
@@ -16,8 +18,10 @@ const App = () => {
     <Home />
     <About />
     <Service />
+    <Team />
     <Testimonial />
     <Subscription />
+    <Footer />
     <ScrollToTop smooth
     top="300"
     color='white'

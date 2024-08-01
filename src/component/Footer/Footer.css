@@ -1,0 +1,48 @@
+.footer {
+    height: auto;
+    margin: 0px;
+    background-color: #030749;
+    padding-bottom: 30px;
+}
+.footer-about-section {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-about-section h6 {
+    margin-top: 20px;
+}
+.soical-icon {
+    display: flex;
+    gap: 2px;
+    color: orange;
+    cursor: pointer;
+}
+.footer-serv {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-serv h6 {
+    margin-top: 20px;
+}
+li {
+    --border-color: white;
+    --border-color2: orange;
+    --border-width: 2px;
+    --bottom-distance: 0px;
+    display: block;
+    background-image: linear-gradient(var(--border-color), var(--border-color2));
+    background-size: 0% var(--border-width);
+    background-repeat: no-repeat;
+    transition:  background-size 0.5s;
+}
+.footer-item li {
+    list-style-type: none;
+    margin-top: 10px;
+    color: white;
+    background-position: 0 calc(100% - var(--bottom-distance));
+    width: fit-content;
+}
+.footer-item li:hover {
+    background-size: 100% var(--border-width);
+    cursor: pointer;
+}

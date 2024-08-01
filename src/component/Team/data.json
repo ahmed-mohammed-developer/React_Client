@@ -1,0 +1,11 @@
+{
+    "posts": [
+      { "id": 1, "name": "Moh Asd", "content": "This is the content of post 1" , "url": "../../Image/1.png"},
+      { "id": 2, "name": "SS Asd", "content": "This is the content of post 1" , "url": "../../Image/1.png"},
+      { "id": 3, "name": "AA Asd", "content": "This is the content of post 1" , "url": "../../Image/1.png"},
+      { "id": 4, "name": "WW Asd", "content": "This is the content of post 1" , "url": "../../Image/1.png"},
+      { "id": 5, "name": "QQ Asd", "content": "This is the content of post 1" , "url": "../../Image/1.png"},
+      { "id": 6, "name": "Moh Asd", "content": "This is the content of post 1" , "url": "../../Image/1.png"}
+    ]
+  }
+  
