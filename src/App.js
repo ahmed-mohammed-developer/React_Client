@@ -9,6 +9,7 @@ import Feedback from './component/Feedback/Feedback.jsx'
 import Subscription from './component/Subscription/Subscription.jsx'
 import Footer from './component/Footer/Footer.jsx'
 import Video from './component/Video/Video.jsx'
+import Career from './component/Career/Career.jsx'
 import './App.css'
 import ScrollToTop from "react-scroll-to-top";
 
@@ -20,6 +21,7 @@ const App = () => {
     <Home />
     <About />
     <Service />
+    <Career />
     <Video />
     <Team />
     <Testimonial />
@@ -32,9 +34,7 @@ const App = () => {
     height='20'
     width='20'
     style={{borderRadius:"90px", backgroundColor:"#38004c"}}
-
     />
-
     </>
   )
 }
