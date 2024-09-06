@@ -33,3 +33,8 @@
 .active-navItem {
     color: yellow;
 }
+@media (max-width: 899px) {
+    .navbar-main {
+        display: none;
+    }
+}

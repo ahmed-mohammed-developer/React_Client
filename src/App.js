@@ -12,12 +12,14 @@ import Video from './component/Video/Video.jsx'
 import Career from './component/Career/Career.jsx'
 import './App.css'
 import ScrollToTop from "react-scroll-to-top";
+import NavbarMobile from './component/Navbar/NavbarMobile/NavbarMobile.jsx'
 
 
 const App = () => {
   return (
     <>
     <Navbar />
+    <NavbarMobile />
     <Home />
     <About />
     <Service />
