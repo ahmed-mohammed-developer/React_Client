@@ -1,0 +1,54 @@
+.section-container {
+margin-top: 40px;
+position: relative;
+}
+
+
+.map-location iframe {
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.contact-form-desgin {
+    padding: 30px ;
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+.contact-form input {
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.contact-form textarea,
+.custom-select{
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.contact-form input,
+.custom-select{
+    height: 40px;
+}
+.button-submit {
+    margin-top: 20px;
+}
+.button-submit p {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: #2d2f31;
+    color: #fff;
+    padding: 1rem;
+    max-width: 50%;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.button-submit p:hover {
+    background-color: #6cee69;
+    transition-duration: 1s;
+}

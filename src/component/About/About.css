@@ -1,6 +1,9 @@
 .about-section {
     height: 100%;
 }
+#dark .about-section{
+    color: #fff;
+}
 .about-image img {
     border-radius: 30px;
     margin-top: 180px;

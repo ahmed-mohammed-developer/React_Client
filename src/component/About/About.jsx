@@ -2,6 +2,8 @@ import React from 'react'
 import './About.css'
 import Imag from '../../Image/1.png'
 import { FcSlrBackSide, FcMindMap,  FcPhotoReel} from "react-icons/fc";
+import Fade from 'react-reveal/Fade'
+
 
 
 
@@ -11,11 +13,14 @@ const About = () => {
   return (
     <div className='container about-section' id='about'>
         <div className="row">
+        <Fade top>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="about-image">
                     <img src={Imag} height="470px" width='400px' alt='' />
                 </div>
             </div>
+            </Fade>
+            <Fade top>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="about-detalis">
                     <div className="section-title">
@@ -66,6 +71,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            </Fade>
         </div>
     </div>
   )

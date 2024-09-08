@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { createContext, useState } from 'react'
 import Navbar from './component/Navbar/Navbar'
 import Home from './component/Home/Home'
 import About from './component/About/About'
@@ -13,14 +13,27 @@ import Career from './component/Career/Career.jsx'
 import './App.css'
 import ScrollToTop from "react-scroll-to-top";
 import NavbarMobile from './component/Navbar/NavbarMobile/NavbarMobile.jsx'
+import Contact from './component/Contact/Contact.jsx'
+
+export const ThemContent = createContext(null);
+
 
 
 const App = () => {
+
+    const [theme, setThem] = useState('light');
+
+    const handleChangeTheme = () => {
+      setThem((current) => (current === "light" ? "dark" : "light"))
+    }
+
+
   return (
-    <>
+    <ThemContent.Provider value={{theme, handleChangeTheme}}>
     <Navbar />
-    <NavbarMobile />
-    <Home />
+    <NavbarMobile theme={theme} handleChangeTheme={handleChangeTheme}/>
+    <Home theme={theme} handleChangeTheme={handleChangeTheme} />
+    <div className='main-theme-compo' id={theme}>
     <About />
     <Service />
     <Career />
@@ -28,6 +41,8 @@ const App = () => {
     <Team />
     <Testimonial />
     <Feedback />
+    <Contact />
+    </div>
     <Subscription />
     <Footer />
     <ScrollToTop smooth
@@ -37,7 +52,7 @@ const App = () => {
     width='20'
     style={{borderRadius:"90px", backgroundColor:"#38004c"}}
     />
-    </>
+    </ThemContent.Provider>
   )
 }
 
