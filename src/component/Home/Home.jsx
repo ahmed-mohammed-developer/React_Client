@@ -12,7 +12,7 @@ const Home = ({theme, handleChangeTheme}) => {
   return (
     <div className='container-fluid home' id='home'>
       <div className="theme-change" onClick={() => handleChangeTheme()}>
-        {theme === 'light' ? (<BsMoonStarsFill size={40}/>):(  <IoMdSunny size={40}/>)}
+        {theme === 'light' ? (<BsMoonStarsFill size={40}/>):(  <IoMdSunny size={40} className='them-icon'/>)}
       </div>
       <Fade left>
       <div className="container home-content">
